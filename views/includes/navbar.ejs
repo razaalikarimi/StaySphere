@@ -1,28 +1,90 @@
 <style>
-  .search-btn{
-    background-color: #fe424d;
-    color: #fff;
-    border-radius: 25px;
-    padding: 0 1rem 0 1rem;
+  /* General Styling for Consistency */
+  * {
+    font-family: Arial, sans-serif;
   }
-  .search-btn:hover{
-    background-color: #fe424d;
-    color: #fff;
+
+  /* Navbar Styling */
+  .navbar {
+    background: linear-gradient(135deg, #ff6e7f, #bfe9ff);
+    border-bottom: 2px solid #ff6e7f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .search-btn i {
-    display:inline;
+
+  .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .navbar-brand i {
     margin-right: 0.5rem;
   }
+
+  .nav-link {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  .nav-link:hover {
+    color: #ff6e7f;
+  }
+
+  /* Search Input Styling */
   .search-inp {
-    border-radius: 25px;
-    padding: 0.5rem 3rem 0.5rem 3rem;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ff6e7f;
     font-size: 1rem;
+    transition: box-shadow 0.3s;
+  }
+
+  .search-inp:focus {
+    box-shadow: 0 0 8px rgba(255, 110, 127, 0.5);
+    outline: none;
+  }
+
+  /* Search Button Styling */
+  .search-btn {
+    background: #ff6e7f;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+  }
+
+  .search-btn:hover {
+    background-color: #ff4c5e;
+  }
+
+  .search-btn i {
+    margin-right: 0.5rem;
+  }
+
+  /* Call-to-Action Button */
+  .cta-btn {
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    transition: background-color 0.3s;
+  }
+
+  .cta-btn:hover {
+    background-color: #0056b3;
   }
 </style>
 
-<nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
+<nav class="navbar navbar-expand-md sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/listings"><i class="fa-regular fa-compass"></i></a>
+    <a class="navbar-brand" href="/listings">
+      <i class="fa-regular fa-compass"></i> StaySphere
+    </a>
     <button
       class="navbar-toggler"
       type="button"
@@ -33,24 +95,25 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-       
         <a class="nav-link" href="/listings">Explore</a>
       </div>
 
       <div class="navbar-nav ms-auto">
         <form class="d-flex" role="search">
-          <input class="form-control me-2 search-inp" type="search" placeholder="Search destinations"/>
+          <input class="form-control me-2 search-inp" type="search" placeholder="Search destinations" />
           <button class="btn search-btn" type="submit">
-            <i class="fa-solid fa-magnifying-glass"></i>Search</button>
+            <i class="fa-solid fa-magnifying-glass"></i> Search
+          </button>
         </form>
       </div>
 
       <div class="navbar-nav ms-auto">
-        <a class="nav-link" href="/listings/new">StaySphere your home</a>
+        <a class="nav-link cta-btn" href="/listings/new">StaySphere Your Home</a>
         <% if (!currUser) { %>
           <a class="nav-link" href="/signup"><b>Sign up</b></a>
           <a class="nav-link" href="/login"><b>Log in</b></a>
-        <% }%> <% if (currUser) { %>
+        <% } %>
+        <% if (currUser) { %>
           <a class="nav-link" href="/logout"><b>Log out</b></a>
         <% } %>
       </div>
