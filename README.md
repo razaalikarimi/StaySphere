@@ -1,4 +1,4 @@
-![login](https://github.com/user-attachments/assets/5d94febf-27dc-4889-9bc4-a21c3573918c)SnapTalk is a real-time chat application where users can communicate seamlessly in a responsive chat environment.
+SnapTalk is a real-time chat application where users can communicate seamlessly in a responsive chat environment.
 
 To use the SnapTalk website, you typically interact with its real-time chat features by:
 
@@ -28,5 +28,11 @@ Visit SnapTalk to experience the live chat.
 
 
 ![login](https://github.com/user-attachments/assets/3d89d879-82f2-4f3c-9426-80f39728bc45)
+![image](https://github.com/user-attachments/assets/2f673558-02a4-4df6-94af-9ba3a0bf8a28)
+![image](https://github.com/user-attachments/assets/43e388e9-c24e-4ab1-8895-8bdb9fe355ca)
+![image](https://github.com/user-attachments/assets/f5d7a57d-d3e7-4cb2-a568-ef4b4300db2c)
+![image](https://github.com/user-attachments/assets/4c16ae88-1f78-49ca-9cde-a17a0b426dbd)
+![image](https://github.com/user-attachments/assets/77e9f0ed-cd5b-4cb0-84b4-94bc68a46b39)
+
 
 
