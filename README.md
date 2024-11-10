@@ -1,4 +1,3 @@
-StaySphere
 StaySphere is a user-friendly accommodation booking platform, allowing users to browse, book, and review various types of stays in destinations around the world.
 
 A typical accommodation booking website like StaySphere could feature:
