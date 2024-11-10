@@ -1,4 +1,4 @@
-SnapTalk is a real-time chat application where users can communicate seamlessly in a responsive chat environment.
+![login](https://github.com/user-attachments/assets/5d94febf-27dc-4889-9bc4-a21c3573918c)SnapTalk is a real-time chat application where users can communicate seamlessly in a responsive chat environment.
 
 To use the SnapTalk website, you typically interact with its real-time chat features by:
 
@@ -25,5 +25,8 @@ Set up environment variables for database and API keys.
 Run the application with npm start.
 Usage
 Visit SnapTalk to experience the live chat.
+
+
+![login](https://github.com/user-attachments/assets/3d89d879-82f2-4f3c-9426-80f39728bc45)
 
 
